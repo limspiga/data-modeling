@@ -1,0 +1,312 @@
+% ***********************
+% By Lim 2023
+% ***********************
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage{fontspec}
+\usepackage{ragged2e}
+
+\usepackage{graphicx}
+\usepackage{array} % Required for the m column type
+\usepackage[utf8]{inputenc}
+
+\usepackage{xcolor}
+
+\setmainfont{[StempelGaramondLTStd-BoldIt]}
+
+\definecolor{iteso}{cmyk}{1, 0.87, 0.38, 0.30}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[ \vspace{-4pt}
+%\vspace{-10pt}
+]
+
+
+
+%-------------------------------------------
+
+
+\begin{document}
+
+
+% 
+% Departamento de mercadotecnia
+
+\noindent % This ensures no indentation for the table
+\begin{tabular}{
+  >{\centering\arraybackslash}m{0.3\linewidth} 
+  >{\centering\arraybackslash}m{0.7\linewidth}
+}
+\includegraphics[width=5cm]{iteso.pdf} &
+\fontsize{18pt}{18pt}\selectfont
+\textcolor{iteso}{Maestría en mercadotecnia}\newline 
+\fontsize{12pt}{16pt}\selectfont
+ \textcolor{iteso}{\quad Departamento de mercadotecnia}\newline
+\end{tabular}
+
+\vspace{0.4cm}
+\fontsize{18pt}{18pt}\selectfont
+\textcolor{iteso}{Modelado de datos}\newline 
+
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Descripción}\\
+\fontsize{11pt}{15pt}\selectfont
+\vspace{0.4cm}
+
+Las empresas generan grandes cantidades de datos diariamente. Este curso enseña a analizar esos datos para comprender a los clientes en profundidad. Aprenderás a formular hipótesis, generar estadísticas descriptivas y escribir consultas SQL avanzadas, incluso trabajando con tipos de datos como JSON. Además, explorarás análisis geoespacial y de texto, y técnicas avanzadas como el perfilado y la automatización. Al concluir, dominarás técnicas SQL para escenarios empresariales y analizarás datos con perspectiva profesional.
+
+%  Prerrequisitos
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Prerrequisitos}\\
+\fontsize{11pt}{15pt}\selectfont
+\begin{itemize}
+    \item Nociones de lenguaje de programación: Python o R.
+\end{itemize}
+
+% Contenido temático
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Contenido temático}\\
+\fontsize{11pt}{15pt}\selectfont
+\begin{enumerate}[itemsep=-0.1cm]
+    \item Entendiendo y Describiendo Datos
+    \item Fundamentos de SQL para análisis
+    \item SQL para Preparación de Datos
+    \item Funciones de Agregación para Análisis de Datos
+    \item Funciones de Ventana para Análisis de Datos
+    \item Importación y Exportación de Datos
+    \item Análisis Utilizando Tipos de Datos Complejos
+\end{enumerate}
+
+
+%  Evaluación
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Evaluación}\\
+\fontsize{11pt}{15pt}\selectfont
+\begin{itemize}[itemsep=-0.1cm]
+    \item 30 Asistencias
+    \item 40 Prácticas
+    \item 30 Trabajo final
+\end{itemize}
+
+%  Referencias
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Referencias}\\
+\fontsize{11pt}{15pt}\selectfont
+\begin{itemize}[itemsep=-0.1cm]
+    \item T. Blanchard, Data Science for Marketing Analytics: A practical guide to forming a killer
+marketing strategy through data analysis with Python, 2nd Edition, 2019.
+    \item B. Lubanovic, Introducing Python: Modern Computing in Simple Packages, 2019.
+    \item W. McKinney, Python for Data Analysis: Data Wrangling with Pandas, Numpy, and Jupyter, 2022.
+\end{itemize}
+
+
+\newpage
+
+% Guía de Aprendizaje
+% -----------------------
+
+\noindent % This ensures no indentation for the table
+\begin{tabular}{
+  >{\centering\arraybackslash}m{0.3\linewidth} 
+  >{\centering\arraybackslash}m{0.7\linewidth}
+}
+\includegraphics[width=5cm]{iteso.pdf} &
+\fontsize{18pt}{18pt}\selectfont
+\textcolor{iteso}{Maestría en mercadotecnia}\newline 
+\fontsize{12pt}{16pt}\selectfont
+ \textcolor{iteso}{\quad Departamento de mercadotecnia}\newline
+\end{tabular}
+
+\vspace{0.4cm}
+\fontsize{18pt}{18pt}\selectfont
+\textcolor{iteso}{Guía de Aprendizaje}\newline 
+\fontsize{11pt}{15pt}\selectfont
+
+ITESO, Departamento de Economía, Administración y Mercadología
+Clave de la Asignatura: ITE3793 \\
+Periodo Escolar: Verano 2023 Ordinario \\
+No. de Créditos BCD y TIE y dedicación en horas: Créditos: 8. \\
+Horas TIE: 48 horas \\
+Asignatura: Modelado de datos \\
+Grado y Nombre del Profesor: 918864 LUIS MIGUEL ESCOBAR VEGA \\
+Horario: Sáb 08:30 - 12:30 Espacio: V-406 
+
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Propósito general de la asignatura}\\
+\fontsize{11pt}{15pt}\selectfont
+\vspace{0.4cm}
+
+La asignatura se centra en el diseño estratégico organizacional para la recolección, actualización y almacenamiento de datos. Destaca el papel fundamental del analista de negocios y clientes, quien se integra activamente en los equipos de proyectos. Su misión es identificar, explorar y perfeccionar sistemas y fuentes de datos alineados con los objetivos organizacionales. Esta labor se realiza siempre respetando rigurosos estándares de ética y legalidad.
+
+
+
+% Descripción del proyecto formativo
+
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Descripción del proyecto formativo}\\
+\fontsize{11pt}{15pt}\selectfont
+
+\subsection*{1. Entendiendo y Describiendo Datos}
+Este tópico se enfoca en la comprensión fundamental de los datos con los que trabajamos. Incluye aprender a reconocer las estructuras de datos, su procedencia, naturaleza y calidad. Además, se abordan técnicas estadísticas y visuales básicas para describir y resumir conjuntos de datos, permitiendo obtener una vista preliminar de la información y detectar posibles anomalías o tendencias.
+
+\subsection*{2. Fundamentos de SQL para análisis}
+En este apartado, se introduce a SQL (Structured Query Language), el lenguaje de consulta estructurada usado para gestionar y recuperar datos de bases de datos relacionales. Se cubren conceptos básicos como selección, filtrado, ordenación y unión de datos, ofreciendo una base sólida para análisis más complejos.
+
+\subsection*{3. SQL para Preparación de Datos}
+Más allá de las consultas básicas, aquí se exploran técnicas avanzadas de SQL para limpiar, transformar y preparar datos para análisis. Esto puede incluir normalización de datos, manejo de valores faltantes, conversión de tipos de datos, y otras operaciones esenciales antes de cualquier análisis en profundidad.
+
+\subsection*{4. Funciones de Agregación para Análisis de Datos}
+Este tópico aborda cómo consolidar o agrupar datos en conjuntos más pequeños y manejables utilizando funciones de agregación en SQL, como SUM, AVG, COUNT, entre otras. Estas funciones son cruciales para obtener resúmenes y métricas de conjuntos de datos grandes.
+
+\subsection*{5. Funciones de Ventana para Análisis de Datos}
+Las funciones de ventana en SQL permiten realizar cálculos a través de un conjunto específico de filas, denominado ``ventana'', que están relacionadas con la fila actual dentro de una consulta. Son esenciales para operaciones como cálculos acumulativos, rankings o comparaciones de datos con períodos anteriores.
+
+\subsection*{6. Importación y Exportación de Datos}
+Este módulo aborda las técnicas y herramientas para introducir datos en una base de datos (importación) o extraer datos de una base de datos para su uso en otros programas o formatos (exportación). Se enfoca en garantizar la integridad de los datos durante estos procesos y en manejar diferentes formatos de datos.
+
+\subsection*{7. Análisis Utilizando Tipos de Datos Complejos}
+A diferencia de los datos simples como números o cadenas, los datos complejos pueden incluir estructuras como arrays, mapas o registros. En este tópico, se exploran técnicas y herramientas para analizar estos tipos de datos, permitiendo extraer insights más profundos y gestionar información en formatos más ricos y variados.
+
+
+% Competencias por desarrollar / Propósitos específicos
+
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Competencias por desarrollar / Propósitos específicos}\\
+\fontsize{11pt}{15pt}\selectfont
+
+Al finalizar esta asignatura, el estudiante será capaz de evidenciar avances en las siguientes competencias:
+
+\begin{itemize}
+    \item \textbf{Visión sistémica y estratégica:} analizar las necesidades de una empresa desde una perspectiva compleja e identificar las prioridades desde un enfoque estratégico, de forma que pueda fundamentar una propuesta de proyectos para el desarrollo empresarial.
+    
+    \item \textbf{Pensamiento creativo e innovador:} identificar y fundamentar alternativas que permitan el desarrollo de la empresa a intervenir y/o la solución de problemas o procesos críticos en su operación.
+    
+    \item \textbf{Compromiso ético:} demostrar que los aprendizajes y las actividades realizadas durante el curso se operan en respeto y apoyo mutuos, en aprendizaje colaborativo y el diálogo de saberes y que las propuestas de proyectos integran los propósitos y valores de la responsabilidad social empresarial.
+    
+    \item \textbf{Aprendizaje crítico y reflexivo:} identificar y discriminar los elementos más significativos de la forma cómo aprenden y desarrollan las competencias profesionales.
+    
+    \item \textbf{Planeación:} establecer objetivos de acuerdo con un diagnóstico sistémico, definir una estrategia de intervención y organizar etapas y acciones en el tiempo para el logro de dichos objetivos.
+\end{itemize}
+
+
+% Competencias previas del estudiante
+
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Competencias previas del estudiante}\\
+\fontsize{11pt}{15pt}\selectfont
+
+Para poder inscribirse en esta asignatura, el estudiante debe evidenciar ser capaz de:
+\begin{itemize}
+    \item Nociones de lenguaje de programación: Python o R.
+    \item Investigar: buscar y procesar información procedente de fuentes diversas, de manera sistemática, coherente y consistente para comprender una realidad y plantear recomendaciones.
+    \item Analizar y sintetizar: distinguir y contrastar los contenidos teórico-conceptuales, así como los empíricos, que permitan entender y caracterizar la información de la empresa necesaria para el desarrollo de su proyecto y su justificación.
+\end{itemize}
+
+\newpage
+
+%  Gestión de la calidad del proyecto
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Gestión de la calidad del proyecto}\\
+\fontsize{11pt}{15pt}\selectfont
+
+\textbf{Autor (es):} Dr. Luis Escobar \\
+\textbf{Fecha:} Primer versión: Verano 2023 \\
+\textbf{Periodicidad de la revisión:} Semestral
+
+% Normas del curso
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Normas del curso}\\
+\fontsize{11pt}{15pt}\selectfont
+
+\begin{itemize}
+    \item La comunicación con los alumnos se hace mediante el correo institucional del alumno.
+    \item Las reglas del curso obedecen a la normativa ITESO:
+    \begin{itemize}
+        \item Normativa propia de posgrados, disponible en la página web de \href{https://posgrados.iteso.mx/admision}{posgrados.iteso.mx/admision},
+        \item Normativa general para alumnos de ITESO, disponible en la página web de ITESO normativa universitaria.
+    \end{itemize}
+\end{itemize}
+
+% Calificación de la asignatura
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Calificación de la asignatura}\\
+\fontsize{11pt}{15pt}\selectfont
+
+\textbf{Elementos por calificar}
+\begin{itemize}
+    \item Asistencias 30\%
+    \item Prácticas 40\%
+    \item Trabajo final 30\%
+\end{itemize}
+
+
+% Referencias documentale
+\vspace{0.4cm}
+\fontsize{14pt}{20pt}\selectfont
+\textcolor{iteso}{Referencias documentales}\\
+\fontsize{11pt}{15pt}\selectfont
+
+\textbf{Bibliografía básica y complementarias, artículos, vínculos de internet y casos de estudio}
+\begin{itemize}
+    \item W. McKinney, \textit{Python for Data Analysis: Data Wrangling with Pandas, Numpy, and Jupyter}, 2022.
+    \item B. Lubanovic, \textit{Introducing Python: Modern Computing in Simple Packages}, 2019.
+    \item T. Blanchard, \textit{Data Science for Marketing Analytics: A practical guide to forming a killer marketing strategy through data analysis with Python, 2nd Edition}, 2019.
+\end{itemize}
+
+\textbf{Otros materiales de apoyo (artículos, vínculos de internet, casos de estudio):}
+\begin{itemize}
+    \item \href{https://colab.research.google.com/}{https://colab.research.google.com/}
+    \item \href{https://quickref.me/python}{https://quickref.me/python}
+    \item \href{https://github.com/limspiga/customer-analytics}{https://github.com/limspiga/customer-analytics}
+\end{itemize}
+
+
+
+
+
+\end{document}
+
