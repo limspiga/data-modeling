@@ -13,11 +13,11 @@ Las empresas generan grandes cantidades de datos diariamente. Este curso enseña
 7. Análisis Utilizando Tipos de Datos Complejos
 
 ## Herramientas
-- Python 3.x
+- Python 3
 - Colab
-- Pandas.
+- Pandas
 
 ## Preparación del entorno
-- Entorno de COLAB. [https://colab.research.google.com/]
-- Python cheatsheet.
+- Entorno de COLAB. https://colab.research.google.com
+- Python cheatsheet. https://quickref.me/python
 - Github data-modeling.
