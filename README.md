@@ -11,3 +11,13 @@ Las empresas generan grandes cantidades de datos diariamente. Este curso enseña
 5. Funciones de Ventana para Análisis de Datos
 6. Importación y Exportación de Datos
 7. Análisis Utilizando Tipos de Datos Complejos
+
+## Herramientas
+- Python 3.x
+- Colab
+- Pandas.
+
+## Preparación del entorno
+- Entorno de COLAB. [https://colab.research.google.com/]
+- Python cheatsheet.
+- Github data-modeling.
