@@ -14,6 +14,7 @@ Las empresas generan grandes cantidades de datos diariamente. Este curso enseña
 
 ## Herramientas
 - Python 3
+- Postgresql/sqlite
 - Colab
 - Pandas
 
